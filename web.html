@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>P.ai-The Event</title>
   <meta name="description" content="A cleverly cryptic build event. Decode the theme, then enhance the experience." />
@@ -12,74 +12,71 @@
     <source src="assets/clock.mp4" type="video/mp4">
     Your browser does not support this 
   </video>
+
   <a href="#main" class="sr-only">Skip to content</a>
+
+  <!-- Header -->
   <header>
     <div class="container nav" role="navigation" aria-label="Primary">
-        <div class="brand" aria-label="P.ai">
+      <div class="brand" aria-label="P.ai">
         <div class="logo" aria-hidden="true"></div>
         <span class="wordmark">P.ai</span>
-    </div>
-    <nav class="nav-links">
-      <a href="#brief">Brief</a>
-      
-      <a href="#schedule">Schedule</a>
-      <a href="#register" class="btn">Register</a>
-    </nav>
+      </div>
+      <nav class="nav-links">
+        <a href="#brief">Brief</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#register" class="btn">Register</a>
+      </nav>
     </div>
   </header>
-   <main id="main">
+
+  <!-- Main -->
+  <main id="main">
+    <!-- Hero -->
     <section class="hero container" id="home">
       <div class="hero-grid">
         <div>
-         <h1 class="hero-text">Master the delicate art<br/> of doing it tomorrow</h1>
-         <p class="detailed-intro">A cryptic mini‑build where speed isn’t the goal—insight is. Decode the theme, <br/>then make it delightful. </p>        
-         <div class="hero-buttons">
-          <button class="later">I’ll do it later</button>
-          <button class="start">Start Now</button>
+          <h1 class="hero-text">Master the delicate art<br/> of doing it tomorrow</h1>
+          <p class="detailed-intro">A cryptic mini-build where speed isn’t the goal—insight is. Decode the theme, <br/>then make it delightful. </p>        
+          <div class="hero-buttons">
+            <button class="later">I’ll do it later</button>
+            <button class="start">Start Now</button>
           </div>
-          </div> 
-          <div class="deadline-drift">
-            <h3>Deadline Drift</h3>
-
-            <div class="status">
-              <p>Status</p>
-              <p>"Flexible"</p>
-              
-            </div>
-            <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="53">
-                <span></span>
-            </div>
-            <div class="limits">
-              <p>ETA</p>
-              <p>∞ soon‑ish</p>
-            </div>
+        </div> 
+        <div class="deadline-drift">
+          <h3>Deadline Drift</h3>
+          <div class="status">
+            <p>Status</p>
+            <p>"Flexible"</p>
           </div>
-
+          <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="53">
+            <span></span>
+          </div>
+          <div class="limits">
+            <p>ETA</p>
+            <p>∞ soon-ish</p>
+          </div>
+        </div>
       </div>
-      
-
-
     </section>
- 
-    <section  id="brief" class="brief-container">
-          <h2>The Brief</h2>
+
+    <!-- Brief -->
+    <section id="brief" class="brief-container">
       <div class="brief-content">
-      <div class="mission">
-         <h4>Your Mission</h4>
-         
-          
+        <div class="mission">
+          <h2>The Brief</h2>
+          <h4>Your Mission</h4>
           <ul>
             <li>Infer the underlying theme from the Clueboard and overall behavior.</li>
             <li>Extend this page with features that celebrate the theme without naming it.</li>
-            <li>Polish the UX and micro‑interactions—keep it witty, not noisy.</li>
+            <li>Polish the UX and micro-interactions—keep it witty, not noisy.</li>
             <li>Respect accessibility and contrast. Make it work beautifully on mobile first.</li>    
           </ul>
-          
-         </div>
+        </div>
 
         <div class="idea-starters">
           <h4>Idea starters</h4>
-           <ul>
+          <ul>
             <li>A “not now” queue that gracefully reassigns time.</li>
             <li>Buttons whose urgency fades (or increases) with interaction.</li>
             <li>Progress bars that… negotiate.</li>
@@ -87,107 +84,106 @@
           </ul>
         </div>  
       </div>
-
-     
     </section>
 
-   <section  id="schedule" class="schedule">
-  <h2>Schedule</h2>
-  <div class="cards">
+    <!-- Schedule -->
+    <section id="schedule" class="schedule">
+      <h2>Schedule</h2>
+      <div class="cards">
 
-  
-    <div class="card">
-      <input type="checkbox" id="card1">
-      <div class="card-inner">
-        <div class="card-front">
-          <button class="schedule-button">KickOff</button>
-          <h4>Opening Nudge</h4>
-          <p class="schedule-text">Get oriented. Observe the clues.<br/>Don't rush.</p>
+        <div class="card">
+          <input type="checkbox" id="card1">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="title-row">
+                <button class="schedule-button">KickOff</button>
+                <h4>Opening Nudge</h4>
+              </div>
+              <p>Get oriented. Observe the clues.<br/>Don't rush.</p>
+            </div>
+            <div class="card-back">
+              <img src="assets/proc_meme4.jpg" alt="Procrastination Meme">
+            </div>
+          </div>
+          <label for="card1" class="label-btn"></label>
         </div>
-        <div class="card-back">
-          <img src="assets/proc_meme4.jpg" alt="Procrastination Meme">
-        </div>
-      </div>
-    
-      <label for="card1" class="label-btn"></label>
-    </div>
-     <div class="card">
-      <input type="checkbox" id="card2">
-      <div class="card-inner">
-        <div class="card-front">
-          <button class="schedule-button">Ideation</button>
-          <h4>Sketch the Vibe</h4>
-          <p class="schedule-text">Design concepts that lean into<br/>the mystery.</p>
-        </div>
-        <div class="card-back">
-          <img src="assets/proc_meme1.jpg" alt="Meme 2">
-        </div>
-      </div>
-      <label for="card2" class="label-btn"></label>
-    </div>
 
-  
-    <div class="card">
-      <input type="checkbox" id="card3">
-      <div class="card-inner">
-        <div class="card-front">
-          <button class="schedule-button">Build</button>
-          <h4>Make It Play</h4>
-          <p class="schedule-text">Shape a witty interaction or two.</p>
+        <div class="card">
+          <input type="checkbox" id="card2">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="title-row">
+                <button class="schedule-button">Ideation</button>
+                <h4>Sketch the Vibe</h4>
+              </div>
+              <p>Design concepts that lean into<br/>the mystery.</p>
+            </div>
+            <div class="card-back">
+              <img src="assets/proc_meme1.jpg" alt="Meme 2">
+            </div>
+          </div>
+          <label for="card2" class="label-btn"></label>
         </div>
-        <div class="card-back">
-          <img src="assets/proc_meme2.jpg" alt="Meme 3">
-        </div>
-      </div>
-      <label for="card3" class="label-btn"></label>
-    </div>
 
-  
-    <div class="card">
-      <input type="checkbox" id="card4">
-      <div class="card-inner">
-        <div class="card-front">
-          <button class="schedule-button">Submit</button>
-          <h4>When You’re Ready</h4>
-          <p class="schedule-text">Soon-ish works. Great-ish is fine, too.</p>
+        <div class="card">
+          <input type="checkbox" id="card3">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="title-row">
+                <button class="schedule-button">Build</button>
+                <h4>Make It Play</h4>
+              </div>
+              <p>Shape a witty interaction or two.</p>
+            </div>
+            <div class="card-back">
+              <img src="assets/proc_meme2.jpg" alt="Meme 3">
+            </div>
+          </div>
+          <label for="card3" class="label-btn"></label>
         </div>
-        <div class="card-back">
-          <img src="assets/proc_meme3.jpg" alt="Meme 4">
+
+        <div class="card">
+          <input type="checkbox" id="card4">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="title-row">
+                <button class="schedule-button">Submit</button>
+                <h4>When You’re Ready</h4>
+              </div>
+              <p>Soon-ish works. Great-ish is fine, too.</p>
+            </div>
+            <div class="card-back">
+              <img src="assets/proc_meme3.jpg" alt="Meme 4">
+            </div>
+          </div>
+          <label for="card4" class="label-btn"></label>
         </div>
+
       </div>
-      <label for="card4" class="label-btn"></label>
-    </div>
-  
-  
-  </div>
-</section>
-  <section  id="register" class="registration">
-    <h2>Join The Fun</h2>
-    <div class="regbox">
-      <div class="namebox">
-        <p>Name</p>
-        <input class="inputs" placeholder="What should we cheer you as?">
-      </div>
-       <div class="emailbox">
-         <p>Email</p>
-         <input  class="inputs" placeholder="We’ll only email winners.">
-       </div>
-       <div class="time_zone">
-           <p>timezone</p>
-           <input  class="inputs" placeholder="So we don’t nudge you at 3 AM (unless you like that)">
-       </div>
-       <div class="buttonbox">
+    </section>
+
+    <!-- Registration -->
+    <section id="register" class="registration">
+      <h2>Join The Fun</h2>
+      <div class="regbox">
+        <div class="namebox">
+          <p>Name</p>
+          <input class="inputs" placeholder="What should we cheer you as?">
+        </div>
+        <div class="emailbox">
+          <p>Email</p>
+          <input  class="inputs" placeholder="We’ll only email winners.">
+        </div>
+        <div class="time_zone">
+          <p>Timezone</p>
+          <input  class="inputs" placeholder="So we don’t nudge you at 3 AM (unless you like that)">
+        </div>
+        <div class="buttonbox">
           <button class="later">Count Me In</button>
           <button class="start">Maybe Later</button>
-       </div>
+        </div>
       </div>
-
-  </section>
- 
-
-   </main>
-   
+    </section>
+  </main>
 </body>
-
-
 </html>
